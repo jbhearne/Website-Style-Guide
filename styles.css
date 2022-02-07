@@ -1,0 +1,237 @@
+body {
+    background-color: whitesmoke;
+}
+
+nav {
+    position: static;
+    height: 50px;
+    z-index: 5;
+    background-color: black;
+    color: aqua;
+    width: 100%;
+    margin: 0;
+}
+main {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav li {
+    display: inline-block;
+    padding: 15px 50px 0 0;
+    margin: 0;
+}
+nav li a {
+    color: aqua;
+    text-decoration: none;
+}
+nav li a:visited {
+    color: beige;
+}
+nav ul {
+    padding: 0px 0 0 20px;
+    margin: 0;
+}
+
+#colors li {
+    list-style: none;
+    display: inline-block;
+    top: 50px;
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    margin: 10px;
+    border: 4px solid darkred;
+    border-radius: 20px;
+    color: darkred;
+    font-family: monospace;
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+}
+
+#colors li p {
+    display: inline-flex;
+    margin: 15px auto 15px;
+}
+
+.crispy_orange_b {
+    background-color: #fe8605;
+}
+.cartoon_whale_b {
+    background-color: #057dfe;
+}
+.tequilla_sunrise_b {
+    background-color: #fe0905;
+}
+.buttered_popcorn_b {
+    background-color: #fafe05;
+}
+.jungle_edge_b {
+    background-color: #7dfe05;
+}
+.doublemint_b {
+    background-color: #05fe86;
+}
+.city_smoke_b {
+    background-color: #5e5a55;
+}
+
+.font_style {
+    font-size: 30px;
+}
+
+#Ubuntu_Mono {
+    font-family: "Ubuntu Mono";
+}
+#Zilla_Slab {
+    font-family: "Zilla Slab";
+}
+#Sarabun {
+    font-family: "Sarabun";
+}
+#Special_Elite {
+    font-family: "Special Elite";
+}
+.w100 {
+    font-weight: 100;
+}
+.w100i {
+    font-weight: 100;
+    font-style: italic;
+}
+.w300 {
+    font-weight: 300;
+}
+.w300i {
+    font-weight: 300;
+    font-style: italic;
+}
+.w400 {
+    font-weight: 400;
+}
+.w400i {
+    font-weight: 400;
+    font-style: italic;
+}
+.w700 {
+    font-weight: 700;
+}
+.w700i {
+    font-weight: 700;
+    font-style: italic;
+}
+.w800 {
+    font-weight: 800;
+}
+.w800i {
+    font-weight: 800;
+    font-style: italic;
+}
+
+.example_box {
+    border: 1px solid black;
+    margin:25px;
+    padding: 0 10px;
+    width: 600px;
+    background-color: white;
+    font-family: "Sarabun";
+}
+
+.examples .nav li {
+    display: inline-block;
+}
+
+.examples .nav li a {
+    font-size: 18px;
+    font-family: "Sarabun";
+    color: #fafe05;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.examples .nav{
+    background-color: #057dfe;
+    color: #fe8605;
+    padding: 3px;
+    font-weight: 800;
+}
+.examples h1.heading_one {
+    font-family: "Zilla Slab";
+    font-size: 60px;
+    letter-spacing: 10px;
+    color: #5e5a55;
+    text-decoration: overline dotted #fe0905 14px;
+    text-align: center;
+}
+.examples h2.heading_two {
+    font-family: "Zilla Slab";
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border: 2px solid #fe8605;
+    width: fit-content;
+    padding: 0 10px;
+    margin: 25px auto;
+}
+
+.examples p.article {
+    font-family: Sarabun;
+    font-size: 18px;
+    
+}
+
+.examples p.pull_quote {
+    font-family: "Special Elite";
+    color: #fe0905;
+    font-size: 25px;
+    border: 4px solid #7dfe05;
+    width: fit-content;
+    padding: 3px;
+    border-radius: 4px;
+}
+.examples a.article {
+    color: #057dfe;
+    font-weight: 800;
+    text-decoration: none;
+}
+.examples a.article:hover {
+    color: #7dfe05;
+}
+.examples ol {
+    font-family: "Ubuntu Mono";
+    font-size: 20px;
+    font-weight: normal;
+    color: #5e5a55;
+    background-color: #05fe86;
+    width: fit-content;
+    padding: 5px 5px 5px 35px;
+    border: 4px solid #057dfe;
+    
+
+}
+
+.examples .footer .nav{
+    background-color: white;
+}
+
+.examples .footer .nav li a{
+    color: #5e5a55;
+    font-family: "Special Elite";
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: normal;
+    background-color: #fe8605;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.examples .footer p {
+    font-family: "Sarabun";
+    font-weight: 100;
+    
+    text-align: right;
+}
+.examples {
+    margin-left: 30px;
+}
